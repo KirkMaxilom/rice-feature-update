@@ -1,0 +1,190 @@
+/*DEFAULT DESIGN UI*/
+body { background:#f4f6f9; padding-top: 60px; }
+
+.sidebar { min-height:100vh; background:#2c3e50; padding-top: 0px; }
+.sidebar .nav-link { color:#fff; padding:10px 16px; border-radius:8px; font-size:.95rem; }
+.sidebar .nav-link:hover, .sidebar .nav-link.active { background:#34495e; }
+.sidebar .submenu { padding-left:35px; }
+.sidebar .submenu a { font-size:.9rem; padding:6px 0; display:block; color:#ecf0f1; text-decoration:none; }
+.sidebar .submenu a:hover { color:#fff; }
+.modern-card { border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.12); transition:.3s; }
+.modern-card:hover { transform:translateY(-4px); }
+.main-content { padding-top:0px; }
+
+/*FOR ADMIN cards DASHBAORD NI*/
+.bg-gradient-primary {background:linear-gradient(135deg,#1d2671,#c33764);}
+.bg-gradient-success {background:linear-gradient(135deg,#11998e,#38ef7d);}
+.bg-gradient-info {background:linear-gradient(135deg,#36d1dc,#5b86e5);}
+.bg-gradient-warning {background:linear-gradient(135deg,#f7971e,#ffd200);}
+.bg-gradient-danger {background:linear-gradient(135deg,#e52d27,#b31217);}
+
+/*ANALYTICS ADMIN PART NA CSS NI*/
+.analytics-box { border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+.analytics-row { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.analytics-box { background:#fff; padding:20px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+
+.bar { background:#eaeaea; border-radius:6px; overflow:hidden; height:10px; }
+.bar div { background:#2f5bff; height:10px; }
+
+.small-note { font-size:.85rem; color:#6c757d; }
+@media (max-width: 992px){
+  .analytics-row{ grid-template-columns:1fr; }
+}
+/*DINHI MAG END ANG CSS SA ANALYTICS BAKOSH
+
+/*PARA NIS SALES PARA DI MAG GLITCH*/
+.modal { z-index: 1055; }
+.modal-backdrop { z-index: 1050; }
+/*END NI
+
+/*PARA NIS SYSTEM LOGS*/
+.modern-card { border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.12); transition:.3s; }
+.modern-card:hover { transform:translateY(-4px); }
+.main-content { padding-top:0px; }
+.table td, .table th { padding:0.55rem; vertical-align: middle; }
+/*END
+
+/*PARA NIS USER MANAGEMENT*/
+.main-content { padding-top:0px; }
+.bg-gradient-primary {background:linear-gradient(135deg,#1d2671,#c33764);}
+/*END NI USER MANAGEMENT*/
+
+/*PARA NIS CASHIER CUSTOMER PART*/
+.table td,.table th{ vertical-align:middle; }
+.small-muted{ color:#6c757d; font-size:.85rem; }
+/*END NI CASHIER CUSTOMER PART*/
+
+/*INVENTORY VIEW NI SA CASHIER NA CSS*/
+.table td,.table th{ vertical-align:middle; }
+/*END*/
+
+/*PAYMENTS NI SA CASHIER SIDE*/
+.table td,.table th{ vertical-align:middle; }
+.small-muted{ color:#6c757d; font-size:.85rem; }
+/*END CALL KO NA BAKS
+
+/*CASHIER SIDE NEW SALE*/
+.table td,.table th{ vertical-align:middle; }
+.small-muted{ color:#6c757d; font-size:.85rem; }
+/*END*/
+
+/*PARA NIS RETURNS CASHIER SIDE*/
+.table td,.table th{ vertical-align:middle; }
+.small-muted{ color:#6c757d; font-size:.85rem; }
+/*END*/
+
+/*SALES HISTORY NI SA CASHIER*/
+.table td,.table th{ vertical-align:middle; }
+/*end*/
+
+/*FOR OWNER DASHBOARD*/
+table td, .table th { padding:0.55rem; vertical-align: middle; }
+.badge-soft { background: rgba(25,135,84,.15); color:#198754;}
+/*END NI OWNER DASHBOARD*/
+
+/*FOR ANALYTICS OWNER SIDE*/
+.badge-soft { background: rgba(25,135,84,.15); color:#198754; }
+.badge-fast { background:#198754; color:#fff; }
+.badge-slow { background:#dc3545; color:#fff; }
+.badge-medium { background:#6c757d; color:#fff; }
+.sidebar .submenu { padding-left: 35px; }
+.sidebar .submenu a {
+  font-size: .9rem;
+  padding: 6px 0;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.sidebar .submenu a:hover { color:#fff; }
+.sidebar .submenu a.active-sub { font-weight:700; color:#fff; }
+/*END
+
+/*FOR INVENTORY MONITORING OWNER SIDE*/
+.table td, .table th { padding:0.55rem; vertical-align: middle; }
+/* Finance dropdown submenu */
+.sidebar .submenu { padding-left: 35px; }
+.sidebar .submenu a {
+  font-size: .9rem;
+  padding: 6px 0;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.sidebar .submenu a:hover { color:#fff; }
+.sidebar .submenu a.active-sub { font-weight:700; color:#fff; }
+/*END*/
+
+/*FOR OWNER RETURNS REPORT*/
+.sidebar .submenu { padding-left: 35px; }
+.sidebar .submenu a {
+  font-size: .9rem;
+  padding: 6px 0;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.sidebar .submenu a:hover { color:#fff; }
+.sidebar .submenu a.active-sub { font-weight:700; color:#fff; }
+/*END OF OWNER RETURNS REPORT*/
+
+/*FOR SALES REPORT OWNER*/
+.sidebar .submenu { padding-left: 35px; }
+.sidebar .submenu a {
+  font-size: .9rem;
+  padding: 6px 0;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.sidebar .submenu a:hover { color:#fff; }
+.sidebar .submenu a.active-sub { font-weight:700; color:#fff; }
+/*END OF SALES REPORT OWNER*/
+
+/*FOR SUPPLIER PAYABLES OWNER*/
+body { background:#f4f6f9; padding-top:70px; }
+.modern-card { border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+.table td, .table th { vertical-align: middle; }
+.small-muted { font-size:.9rem; color:#6c757d; }
+
+.badge-unapproved { background:#6c757d; }
+.badge-approved { background:#0d6efd; }
+
+.badge-paid { background:#198754; }
+.badge-partial { background:#fd7e14; }
+.badge-unpaid { background:#dc3545; }
+.badge-overdue { background:#b02a37; }
+
+.card-kpi h6{ margin:0; opacity:.9; font-weight:600; }
+.card-kpi h3{ margin:0; font-weight:800; }
+
+.kpi-sub { font-size:.85rem; opacity:.85; }
+
+.nav-pills .nav-link{ border-radius:999px; }
+/*END OF SUPPLIER PAYABLES OWNER*/
+
+/*FOR SYSTEM LOGS OWNER SIDE*/
+.table td, .table th { padding:0.55rem; vertical-align: middle; }
+@media print { .sidebar, .navbar, .no-print { display:none !important; } body{padding-top:0} }
+/* Finance dropdown submenu */
+.sidebar .submenu { padding-left: 35px; }
+.sidebar .submenu a {
+  font-size: .9rem;
+  padding: 6px 0;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.sidebar .submenu a:hover { color:#fff; }
+.sidebar .submenu a.active-sub { font-weight:700; color:#fff; }
+/*END OF SYSTEM LOGS OWNER SIDE*/
+
+
+
+
+
+
+
+
+
+
+
